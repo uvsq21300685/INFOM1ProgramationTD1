@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Serveur
+comment1.params=
+comment1.target=Serveur()
+comment2.params=client
+comment2.target=boolean\ connecter(Client)
+comment3.params=message
+comment3.target=void\ diffuser(java.lang.String)
+numComments=4
