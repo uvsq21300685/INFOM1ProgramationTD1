@@ -10,7 +10,7 @@ public class Repertoire extends Composant
 
     public Repertoire(String nom)
     {
-        this.setNom(nom);
+        this.nom = nom;
         this.composants = new LinkedList();
     }
     

@@ -2,8 +2,4 @@
 comment0.target=Composant
 comment1.params=
 comment1.target=int\ calculTaille()
-comment2.params=
-comment2.target=java.lang.String\ getNom()
-comment3.params=nom
-comment3.target=void\ setNom(java.lang.String)
-numComments=4
+numComments=2
