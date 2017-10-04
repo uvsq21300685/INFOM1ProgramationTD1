@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Fraction
+comment1.params=numerateur\ denominateur
+comment1.target=Fraction(int,\ int)
+comment10.params=objet
+comment10.target=boolean\ sontEgales(java.lang.Object)
+comment11.params=fraction1\ fraction2
+comment11.target=boolean\ comparerFraction(Fraction,\ Fraction)
+comment2.params=numerateur
+comment2.target=Fraction(int)
+comment3.params=
+comment3.target=Fraction()
+comment4.params=
+comment4.target=int\ getNumerateur()
+comment5.params=
+comment5.target=int\ getDenominateur()
+comment6.params=
+comment6.target=double\ getValue()
+comment7.params=a\ b
+comment7.target=int\ calculePgcd(int,\ int)
+comment8.params=numerateur\ denominateur
+comment8.target=Fraction\ fractionReduite(int,\ int)
+comment9.params=fraction
+comment9.target=Fraction\ addition(Fraction)
+numComments=12
