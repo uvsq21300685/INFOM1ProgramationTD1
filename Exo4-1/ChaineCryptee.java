@@ -19,7 +19,7 @@ public class ChaineCryptee
         this.decalage = decalage;
     }
     
-    public static ChaineCryptee Crypter(String enClair, int decalage) { 
+    public static ChaineCryptee Decrypter(String enClair, int decalage) { 
         
         StringBuilder str = new StringBuilder();
         String enClairMaj = enClair.toUpperCase();
@@ -34,7 +34,7 @@ public class ChaineCryptee
         return ch;
     }
     
-    public static ChaineCryptee Decrypter(String enClair, int decalage) {
+    public static ChaineCryptee Crypter(String enClair, int decalage) {
         ChaineCryptee ch = new ChaineCryptee(enClair, decalage);
         return ch;
     }
