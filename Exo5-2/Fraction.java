@@ -76,11 +76,18 @@ public class Fraction
         }
     }
    
-    
-    public boolean comparerFraction(Fraction fraction1, Fraction fraction2)
+    public String toString()
     {
-        int f1 = fraction1.getNumerateur() * fraction2.getDenominateur(); 
-        int f2 = fraction2.getNumerateur() * fraction1.getDenominateur();
+        String a = String.valueOf(this.numerateur);
+        String b = String.valueOf(this.denominateur);
+        
+        return a + "/" + b;
+    }
+    
+    public boolean comparerFraction(Fraction fraction)
+    {
+        int f1 = this.getNumerateur() * fraction.getDenominateur(); 
+        int f2 = fraction.getNumerateur() * this.getDenominateur();
         
         if(f1 == f2){
             return true;

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Repertoire
+comment1.params=nom
+comment1.target=Repertoire(java.lang.String)
+comment2.params=composant
+comment2.target=boolean\ contient(Composant)
+comment3.params=composant
+comment3.target=boolean\ ajouter(Composant)
+comment4.params=composant
+comment4.target=boolean\ retirer(Composant)
+comment5.params=
+comment5.target=int\ calculTaille()
+numComments=6
